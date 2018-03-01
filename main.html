@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Initial page</title>
+  </head>
+  <body>
+    <h1>Server Inventory</h1>
+    <input type="image" src="images/add.png" name="add" alt="Add Server" width="48" height="48" onclick="addf()" id="ad"/>
+    &nbsp; &nbsp; &nbsp;
+    <input type="image" src="images/search.png" name="search" alt="Search Serverf" width="48" height="48"  onclick="searchf()" id="search"/>
+    &nbsp; &nbsp; &nbsp;
+    <input type="image" src="images/delete.png" name="delete" alt="Delete Server" width="48" height="48" onclick="deletef()" id="delete"/>
+    &nbsp; &nbsp; &nbsp;
+    <input type="image" src="images/edit.png" alt="Edit Server" width="48" height="48" onclick="editf();" id="edit"/>
+
+<script>
+function addf()
+{
+window.open("add.html","Add","width=650,height=370,left=150,top=200,toolbar=0,status=0,");
+window.focus();
+}
+
+function deletef()
+{
+  window.open("delete.html","Delete","width=650,height=370,left=150,top=200,toolbar=0,status=0,");
+  window.focus();
+}
+
+function editf()
+{
+  window.open("edit.html","Delete","width=650,height=370,left=150,top=200,toolbar=0,status=0,");
+  window.focus();
+}
+
+function searchf()
+{
+  window.open("search.html","Delete","width=650,height=370,left=150,top=200,toolbar=0,status=0,");
+  window.focus();
+}
+
+</script>
+  </body>
+</html>

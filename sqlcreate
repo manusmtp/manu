@@ -1,0 +1,33 @@
+#there are 13 fields in systema.txt 
+# so the create table entry would go like this
+
+#title
+#status
+#os
+#environment
+#authentication
+#Application
+#location
+#dependencies
+#access
+#OVO
+#maintanence
+#frame
+#backup
+#lxp-stna-000304:YES:linux:PRD::Enterprise_Projects_or_Continuous_Delivery:FR::AUTH:UIM:UMZ:lx000304:freedon:
+
+CREATE TABLE server_inventory (
+ title text,
+ status text,
+ os text ,
+ env text,
+ auth text,
+ app  text,
+ location text,
+ depen text,
+ access text,
+ monit text,
+ maintain text,
+ frame text,
+ backup text 
+);
